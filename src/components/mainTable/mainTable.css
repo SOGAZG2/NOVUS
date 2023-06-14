@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: linear-gradient(45deg, #F7A03C, #EA4D32);
+
+
+
+}
+
+.tabla {
+  display: flex;
+  
+  flex-direction: column;
+  border-radius: 0 10px 10px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 95%;
+  width: auto;
+  margin: 40px auto;
+  height: 80vh;
+  overflow:hidden;
+  background-color: white;
+  
+  border-radius: 10px;
+ 
+}
+
+
+.tabla::-webkit-scrollbar{
+  width: 35px;
+}
+
+.key.s {
+  background-color: rgba(4, 255, 4, 0.412) !important;
+}
+.key.n {
+  background-color: rgba(255, 0, 0, 0.316) !important;
+}
+
+.MuiDataGrid-toolbarContainer{
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 5rem;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root{
+  content: none;
+  padding-bottom: 5px;
+}
+/* Estilos para la tabla */
+.MuiDataGrid-root {
+  background-color: white;
+  border-radius:45px ;
+  
+}
+
+.MuiDataGrid-root::-webkit-scrollbar{
+  width: 35px;
+  color: red;
+}
+
+/* Estilos para las celdas */
+.MuiDataGrid-cell {
+  border: none;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+.MuiDataGrid-columnHeader{
+ 
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.221);
+}
+
+
+
+.checkbox input[type="checkbox"] {
+  
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 1px;
+ height: 1px;
+border-radius: 50%;
+  appearance: none; /* Remove default checkbox appearance */
+ /* Add border */
+   /* Add rounded corners */
+
+  transition: all 0.15s ease-in-out; /* Add transition */
+}
+
+.checkbox input[type="checkbox"]:checked {
+  border-color: rgba(0, 0, 0, 0.389);
+  background-color: #F7A03C; 
+  width: 1px;
+  height: 1px;
+  
+ /* Change border color when checked */
+   /* Add background color when checked */
+}
+
+.checkbox input[type="checkbox"]:checked:after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "\2714"; /* Código unicode para una palomita */
+  font-size: 12px; /* Tamaño de la fuente */
+  color: #fff;
+   /* Color de la palomita */
+  width: 1px;
+  height: 1px;
+}
+
+#descarga{
+  position: fixed;
+}
+
+.dialog-upload {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dialogCont{
+  display: flex;
+  gap: 25px;
+  margin: 25px;
+  align-items: center;
+  
+}
+
+.dialog-upload button {
+  background-color: #F7A03C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-left: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  
+}
+
+.dialog-upload button:hover {
+  opacity: 0.8;
+}
+
+.dialog-line {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.dialog-title {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.my-custom-alert {
+    
+  color: #000;
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Toastify__toast-icon {
+  position: absolute;
+  top: 65%;
+
+  right: 46%;
+}
+
+.toastbody{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+}
+
+.popup{
+
+color: #000000;
+text-align: center;
+
+border-radius: 5px;
+padding: 20px;
+max-width: 400px;
+margin: auto;
+}
+
+.popup-header{
+font-weight: bold;
+border-bottom: 1px solid #000000;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+
+.popup-message{
+font-size: 16px;
+}
+
+.popup-button{
+background-color: #ff6600;
+color: #ffffff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+margin-top: 20px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.btn-container{
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+}
